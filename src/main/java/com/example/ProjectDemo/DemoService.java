@@ -35,6 +35,9 @@ public class DemoService {
   }
 
   public String getQuote(){
+
+    System.out.println("inside ");
+
     String responseString = null;
 
     HttpHost proxyHost = new HttpHost("192.168.29.241",8081,"http");
